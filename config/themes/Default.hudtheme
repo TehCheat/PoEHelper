@@ -1,0 +1,49 @@
+{
+  "Colors": {},
+  "Enable": true,
+  "AntiAliasedLines": true,
+  "DisplaySafeAreaPadding": {
+    "X": 8.0,
+    "Y": 8.0
+  },
+  "DisplayWindowPadding": {
+    "X": 8.0,
+    "Y": 8.0
+  },
+  "GrabRounding": 0.0,
+  "GrabMinSize": 10.0,
+  "ScrollbarRounding": 9.0,
+  "ScrollbarSize": 16.0,
+  "ColumnsMinSpacing": 21.0,
+  "IndentSpacing": 21.0,
+  "TouchExtraPadding": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "ItemInnerSpacing": {
+    "X": 4.0,
+    "Y": 4.0
+  },
+  "ItemSpacing": {
+    "X": 8.0,
+    "Y": 4.0
+  },
+  "FrameRounding": 0.0,
+  "FramePadding": {
+    "X": 4.0,
+    "Y": 3.0
+  },
+  "ChildWindowRounding": 0.0,
+  "WindowTitleAlign": {
+    "X": 0.5,
+    "Y": 0.5
+  },
+  "WindowRounding": 7.0,
+  "WindowPadding": {
+    "X": 8.0,
+    "Y": 8.0
+  },
+  "Alpha": 1.0,
+  "AntiAliasedFill": true,
+  "CurveTessellationTolerance": 1.0
+}

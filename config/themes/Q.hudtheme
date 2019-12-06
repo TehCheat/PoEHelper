@@ -1,0 +1,290 @@
+{
+  "Enable": true,
+  "Colors": {
+    "Text": {
+      "X": 0.92,
+      "Y": 0.92,
+      "Z": 0.92,
+      "W": 1.0
+    },
+    "TextDisabled": {
+      "X": 0.5,
+      "Y": 0.5,
+      "Z": 0.5,
+      "W": 1.0
+    },
+    "WindowBg": {
+      "X": 0.2,
+      "Y": 0.2,
+      "Z": 0.2,
+      "W": 0.87
+    },
+    "ChildBg": {
+      "X": 0.22,
+      "Y": 0.21,
+      "Z": 0.21,
+      "W": 0.85
+    },
+    "PopupBg": {
+      "X": 0.26,
+      "Y": 0.26,
+      "Z": 0.26,
+      "W": 1.0
+    },
+    "Border": {
+      "X": 0.26,
+      "Y": 0.73,
+      "Z": 0.76,
+      "W": 0.31
+    },
+    "BorderShadow": {
+      "X": 0.26,
+      "Y": 0.26,
+      "Z": 0.26,
+      "W": 1.0
+    },
+    "FrameBg": {
+      "X": 0.22,
+      "Y": 0.24,
+      "Z": 0.24,
+      "W": 0.45
+    },
+    "FrameBgHovered": {
+      "X": 0.81,
+      "Y": 0.6,
+      "Z": 0.12,
+      "W": 0.67
+    },
+    "FrameBgActive": {
+      "X": 0.16,
+      "Y": 0.16,
+      "Z": 0.16,
+      "W": 1.0
+    },
+    "TitleBg": {
+      "X": 0.36,
+      "Y": 0.36,
+      "Z": 0.36,
+      "W": 0.61
+    },
+    "TitleBgCollapsed": {
+      "X": 0.36,
+      "Y": 0.36,
+      "Z": 0.36,
+      "W": 1.0
+    },
+    "TitleBgActive": {
+      "X": 0.36,
+      "Y": 0.36,
+      "Z": 0.36,
+      "W": 0.88
+    },
+    "MenuBarBg": {
+      "X": 0.26,
+      "Y": 0.26,
+      "Z": 0.26,
+      "W": 1.0
+    },
+    "ScrollbarBg": {
+      "X": 0.21,
+      "Y": 0.21,
+      "Z": 0.21,
+      "W": 0.58
+    },
+    "ScrollbarGrab": {
+      "X": 0.256920427,
+      "Y": 0.6179339,
+      "Z": 0.7941176,
+      "W": 1.0
+    },
+    "ScrollbarGrabHovered": {
+      "X": 0.36,
+      "Y": 0.36,
+      "Z": 0.36,
+      "W": 1.0
+    },
+    "ScrollbarGrabActive": {
+      "X": 0.36,
+      "Y": 0.36,
+      "Z": 0.36,
+      "W": 1.0
+    },
+    "CheckMark": {
+      "X": 0.21,
+      "Y": 0.82,
+      "Z": 0.88,
+      "W": 1.0
+    },
+    "SliderGrab": {
+      "X": 0.74,
+      "Y": 0.74,
+      "Z": 0.74,
+      "W": 1.0
+    },
+    "SliderGrabActive": {
+      "X": 0.74,
+      "Y": 0.74,
+      "Z": 0.74,
+      "W": 1.0
+    },
+    "Button": {
+      "X": 0.64,
+      "Y": 0.23,
+      "Z": 0.23,
+      "W": 1.0
+    },
+    "ButtonHovered": {
+      "X": 0.9,
+      "Y": 0.31,
+      "Z": 0.31,
+      "W": 1.0
+    },
+    "ButtonActive": {
+      "X": 0.4,
+      "Y": 0.22,
+      "Z": 0.22,
+      "W": 1.0
+    },
+    "Header": {
+      "X": 0.28,
+      "Y": 0.28,
+      "Z": 0.28,
+      "W": 1.0
+    },
+    "HeaderHovered": {
+      "X": 0.36,
+      "Y": 0.36,
+      "Z": 0.36,
+      "W": 1.0
+    },
+    "HeaderActive": {
+      "X": 0.36,
+      "Y": 0.36,
+      "Z": 0.36,
+      "W": 1.0
+    },
+    "Separator": {
+      "X": 0.5,
+      "Y": 0.5,
+      "Z": 0.5,
+      "W": 1.0
+    },
+    "SeparatorHovered": {
+      "X": 0.6,
+      "Y": 0.6,
+      "Z": 0.7,
+      "W": 1.0
+    },
+    "SeparatorActive": {
+      "X": 0.7,
+      "Y": 0.7,
+      "Z": 0.9,
+      "W": 1.0
+    },
+    "ResizeGrip": {
+      "X": 0.36,
+      "Y": 0.36,
+      "Z": 0.36,
+      "W": 1.0
+    },
+    "ResizeGripHovered": {
+      "X": 0.26,
+      "Y": 0.59,
+      "Z": 0.98,
+      "W": 1.0
+    },
+    "ResizeGripActive": {
+      "X": 0.26,
+      "Y": 0.59,
+      "Z": 0.98,
+      "W": 1.0
+    },    
+    "PlotLines": {
+      "X": 0.39,
+      "Y": 0.39,
+      "Z": 0.39,
+      "W": 1.0
+    },
+    "PlotLinesHovered": {
+      "X": 1.0,
+      "Y": 0.43,
+      "Z": 0.35,
+      "W": 1.0
+    },
+    "PlotHistogram": {
+      "X": 0.9,
+      "Y": 0.7,
+      "Z": 0.0,
+      "W": 1.0
+    },
+    "PlotHistogramHovered": {
+      "X": 1.0,
+      "Y": 0.6,
+      "Z": 0.0,
+      "W": 1.0
+    },
+    "TextSelectedBg": {
+      "X": 0.32,
+      "Y": 0.52,
+      "Z": 0.65,
+      "W": 1.0
+    },
+    "ModalWindowDimBg": {
+      "X": 0.2,
+      "Y": 0.2,
+      "Z": 0.2,
+      "W": 0.5
+    },
+    "DragDropTarget": {
+      "X": 1.0,
+      "Y": 1.0,
+      "Z": 0.0,
+      "W": 0.9
+    }
+  },
+  "AntiAliasedLines": true,
+  "DisplaySafeAreaPadding": {
+    "X": 4.0,
+    "Y": 4.0
+  },
+  "DisplayWindowPadding": {
+    "X": 22.0,
+    "Y": 22.0
+  },
+  "GrabRounding": 0.0,
+  "GrabMinSize": 10.0,
+  "ScrollbarRounding": 9.0,
+  "ScrollbarSize": 16.0,
+  "ColumnsMinSpacing": 6.0,
+  "IndentSpacing": 21.0,
+  "TouchExtraPadding": {
+    "X": 0.0,
+    "Y": 0.0
+  },
+  "ItemInnerSpacing": {
+    "X": 4.0,
+    "Y": 4.0
+  },
+  "ItemSpacing": {
+    "X": 8.0,
+    "Y": 4.0
+  },
+  "FrameRounding": 3.0,
+  "FramePadding": {
+    "X": 4.0,
+    "Y": 3.0
+  },
+  "ChildWindowRounding": 0.0,
+  "WindowTitleAlign": {
+    "X": 0.0,
+    "Y": 0.5
+  },
+  "WindowRounding": 0.0,
+  "WindowPadding": {
+    "X": 8.0,
+    "Y": 8.0
+  },
+  "Alpha": 1.0,
+  "AntiAliasedFill": true,
+  "CurveTessellationTolerance": 1.25
+}
