@@ -1,6 +1,26 @@
 #Metadata; Text; Color (ARGB)
 #Example: Metadata/Chests/StrongBoxes/Strongbox; ; ff00FF00
 
+# BLIGHT LEAGUE
+Metadata/Monsters/Masters/BlightBuilderWild;Sister Cassia [Blight];ff00FF00
+
+# LEGION LEAGUE
+Metadata/Monsters/LegionLeague/LegionKaruiGeneral;Queen Hyrri Ngamaku [Karui];ff00FF00
+Metadata/Monsters/LegionLeague/LegionMarakethGeneral;Aukuna, the Black Sekhema [Maraketh];ff00FF00
+Metadata/Monsters/LegionLeague/LegionEternalEmpireGeneral;General Marceus Lioneye [Eternal];ff00FF00
+Metadata/Monsters/LegionLeague/LegionVaalGeneral;Viper Napuatzi [Vaal];ff00FF00
+Metadata/Monsters/LegionLeague/LegionTemplarGeneral;Cardinal Sanctus Vox [Templar];ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestVaal2;Vaal War Hoard;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestVaal1;Vaal Chest;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestTemplar2;Templar War Hoard;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestTemplar1;Templar Chest;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestEternalEmpire2;Eternal War Hoard;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestEternalEmpire1;Eternal Chest;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestMaraketh2;Maraketh War Hoard;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestMaraketh1;Maraketh Chest;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestKarui2;Karui War Hoard;ff00FF00
+Metadata/Monsters/LegionLeague/MonsterChestKarui1;Karui Chest;ff00FF00
+
 # ABYSS LEAGUE
 Metadata/MiscellaneousObjects/Abyss/AbyssSubAreaTransition; Abyssal Depths; ff36B400
 Metadata/Monsters/ReligiousTemplar/AbyssLichBoss1; Abyss Lich - Ulaman; ff00FF00
