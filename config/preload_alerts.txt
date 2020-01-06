@@ -1,10 +1,10 @@
 #Metadata; Text; Color (ARGB)
 #Example: Metadata/Chests/StrongBoxes/Strongbox; ; ff00FF00
 
-# BLIGHT LEAGUE
+# BLIGHT
 Metadata/Monsters/Masters/BlightBuilderWild;Sister Cassia [Blight];ff00FF00
 
-# LEGION LEAGUE
+# LEGION
 Metadata/Monsters/LegionLeague/LegionKaruiGeneral;Queen Hyrri Ngamaku [Karui];ff00FF00
 Metadata/Monsters/LegionLeague/LegionMarakethGeneral;Aukuna, the Black Sekhema [Maraketh];ff00FF00
 Metadata/Monsters/LegionLeague/LegionEternalEmpireGeneral;General Marceus Lioneye [Eternal];ff00FF00
@@ -21,7 +21,7 @@ Metadata/Monsters/LegionLeague/MonsterChestMaraketh1;Maraketh Chest;ff00FF00
 Metadata/Monsters/LegionLeague/MonsterChestKarui2;Karui War Hoard;ff00FF00
 Metadata/Monsters/LegionLeague/MonsterChestKarui1;Karui Chest;ff00FF00
 
-# ABYSS LEAGUE
+# ABYSS
 Metadata/MiscellaneousObjects/Abyss/AbyssSubAreaTransition; Abyssal Depths; ff36B400
 Metadata/Monsters/ReligiousTemplar/AbyssLichBoss1; Abyss Lich - Ulaman; ff00FF00
 Metadata/Monsters/ReligiousTemplar/AbyssLichBoss2; Abyss Lich - Amanamu; ff00FF00
@@ -74,7 +74,7 @@ Metadata/Monsters/Statue/IzaroGargoyleCold; Gargoyles, Don't Kill; ff00ff00
 Metadata/Monsters/Statue/IzaroChronosStatueCold; Idols, All Must Gain Full life; ff00ff00
 Metadata/Monsters/Labyrinth/LabyrinthLieutenantSkeletonMelee; Lieutenants, Don't Kill; ff00ff00
 
-# BREACH LEAGUE
+# BREACH
 Metadata/Chests/Breach/BreachChest1Large; Xoph's Clasped Hand; ffFF5A5A
 Metadata/Chests/Breach/BreachChest2Large; Tul's Clasped Hand; ffE0ffff
 Metadata/Chests/Breach/BreachChest3Large; Esh's Clasped Hand; ff6495ED
@@ -107,7 +107,7 @@ Metadata/Monsters/Daemon/ChestDaemonSummonColdWarband; Mutewind Cache; ffD2742D
 Metadata/Monsters/Daemon/ChestDaemonSummonLightningWarband; Brinerot Cache; ffD2742D
 Metadata/Monsters/Daemon/ChestDaemonSummonChaosWarband; Renegades Cache; ffD2742D
 
-# PERANDUS LEAGUE
+# PERANDUS
 
 Metadata/NPC/League/Perandus/Cadiro; Cadiro; ffD2742D
 Art/Models/NPC/Cadiro/Perandus.sm; Cadiro3; ffD2742D
