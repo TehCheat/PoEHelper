@@ -485,3 +485,59 @@ Metadata/Terrain/Missions/CraftingUnlocks/RecipeUnlockVaal; Crafting Recipe; ff9
 
 # HIDEOUTS
 Metadata/NPC/Missions/HelenaClaim; Unlockable Hideout; ffff0000
+
+# ATLAS
+Metadata/Monsters/AtlasExiles/AtlasExile1Influence_; Baran1; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile1Influence; Baran2; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile2Influence; Veritania1; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile2Influence_; Veritania2; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile3; Al-Hezmin3; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile3.ao; Al-Hezmin4; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile3Influence_; Al-Hezmin1; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile3Influence; Al-Hezmin2; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile4Influence_; Drox1; ff36B400
+Metadata/Monsters/AtlasExiles/AtlasExile4Influence; Drox2; ff36B400
+
+
+# BESTIARY
+Metadata/Monsters/LeagueBestiary/BlackScorpionBestiary;Fenumal Scorpion [Randomise Unique]; ffd2742d
+Metadata/Monsters/LeagueBestiary/ParasiticSquidBestiary;Craicic Vassal [30% Quality Corruption]; ffd2742d
+Metadata/Monsters/LeagueBestiary/TigerBestiarySpiritBoss;Farrul, First of the Plains [Craft Aspect of the Cat skill]; ffd2742d
+Metadata/Monsters/LeagueBestiary/MarakethBirdSpiritBoss;Saqawal, First of the Sky [Craft Aspect of the Avian skill]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SpiderPlatedBestiarySpiritBoss;Fenumus, First of the Night [Craft Aspect of the Spider skill]; ffd2742d
+Metadata/Monsters/LeagueBestiary/NessaCrabBestiarySpiritBoss;Craiceann, First of the Deep [Craft Aspect of the Crab skill]; ffd2742d
+Metadata/Monsters/LeagueBestiary/CrabParasiteLargeBestiary_;Craicic Savage Crab [Unique Item]; ffd2742d
+Metadata/Monsters/LeagueBestiary/HellionBestiary;Farric Flame Hellion Alpha [Unique Ring]; ffd2742d
+Metadata/Monsters/LeagueBestiary/BestiaryMonkeyChiefBlood;Farric Chieftain [Unique Amulet]; ffd2742d
+Metadata/Monsters/LeagueBestiary/MonkeyBloodBestiary;Farric Ape [Unique Belt]; ffd2742d
+Metadata/Monsters/LeagueBestiary/GoatmanLeapSlamBestiary;Farric Goatman [Unique Flask]; ffd2742d
+Metadata/Monsters/LeagueBestiary/BeastCaveBestiary;Farric Gargantuan [Unique Helmet]; ffd2742d
+Metadata/Monsters/LeagueBestiary/DropBearBestiary;Farric Ursa [Unique Body Armour]; ffd2742d
+Metadata/Monsters/LeagueBestiary/KiwethBestiary;Saqawine Retch [Unique Boots]; ffd2742d
+Metadata/Monsters/LeagueBestiary/Spider5Bestiary;Fenumal Widow [Unique Gloves]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SeaWitchSpawnBestiary;Craicic Squid [Unique Jewel]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SquidBestiary;Craicic Watcher [Unique Claw or Dagger]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SnakeBestiary1;Saqawine Cobra [Unique Mace or Sceptre]; ffd2742d
+Metadata/Monsters/LeagueBestiary/RootSpiderBestiary_;Fenumal Devourer [Unique Shield or Quiver]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SnakeBestiary2;Saqawine Blood Viper [Unique Sword]; ffd2742d
+Metadata/Monsters/LeagueBestiary/InsectSpawnerBestiary;Fenumal Queen [Unique Staff]; ffd2742d
+Metadata/Monsters/LeagueBestiary/FrogBestiary;Craicic Maw [Unique Axe]; ffd2742d
+Metadata/Monsters/LeagueBestiary/BestiarySpiker;Farric Goliath [Unique Bow]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SandLeaperBestiary;Fenumal Scrabbler [Unique Wand]; ffd2742d
+Metadata/Monsters/LeagueBestiary/BestiaryBull;Farric Taurus [Unique Map]; ffd2742d
+Metadata/Monsters/LeagueBestiary/GemFrogBestiary;Craicic Chimeral [Imprint of a Magic Item]; ffd2742d
+Metadata/Monsters/LeagueBestiary/HoundBestiary;Farric Magma Hound [23% Quality Corrupted Gem]; ffd2742d
+Metadata/Monsters/LeagueBestiary/PitbullBestiary;Farric Pit Hound [Level 21 Corrupted Gem]; ffd2742d
+Metadata/Monsters/LeagueBestiary/VultureBestiary;Saqawine Vulture [Fully-linked Six-socket Rare]; ffd2742d
+Metadata/Monsters/LeagueBestiary/IguanaBestiary;Saqawine Chimeral [10 Random Currency]; ffd2742d
+Metadata/Monsters/LeagueBestiary/RhoaBestiary;Saqawine Rhoa [8 Chromatic Orbs]; ffd2742d
+Metadata/Monsters/LeagueBestiary/ShieldCrabBestiary;Craicic Shield Crab [4 Jeweller's Orbs]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SandSpitterBestiary;Craicic Sand Spitter [Orb of Fusing]; ffd2742d
+Metadata/Monsters/LeagueBestiary/LynxBestiary;Farric Lynx Alpha [Add Suffix, Remove Prefix]; ffd2742d
+Metadata/Monsters/LeagueBestiary/WolfBestiary;Farric Wolf Alpha [Add Prefix, Remove Suffix]; ffd2742d
+Metadata/Monsters/LeagueBestiary/TigerBestiary;Farric Tiger Alpha [Portal to Farrul's Den]; ffd2742d
+Metadata/Monsters/LeagueBestiary/Avians/MarakethBirdBestiary;Saqawine Rhex [Portal to Saqawal's Roost]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SpiderPlatedBestiary;Fenumal Hybrid Arachnid [Portal to Fenumus' Lair]; ffd2742d
+Metadata/Monsters/LeagueBestiary/CrabSpiderBestiary;Craicic Spider Crab [Portal to Craiceann's Cove]; ffd2742d
+Metadata/Monsters/LeagueBestiary/HellionBestiary2;Farric Frost Hellion Alpha [Reroll Rare Item Values]; ffd2742d
+Metadata/Monsters/LeagueBestiary/SpiderPlagueBestiary;Fenumal Plagued Arachnid [Split an Item in Two]; ffd2742d
