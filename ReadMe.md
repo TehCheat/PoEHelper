@@ -6,7 +6,7 @@ It is highly recommended that you use the [limited user method explained here](h
 This reads the memory of the Path of Exile client application and displays it on transparent overlay.
 
 ### Donation Info
-Donations can be made [here](https://www.paypal.me/TehCheat)
+Donations can be made [here](https://www.paypal.me/TehCheatOC)
 
 ### Keyboard Info
 
