@@ -1,0 +1,4 @@
+//MenuName:			ClassName,			StackSize,	InventoryX,	InventoryY
+Portal Scrolls:		Portal Scroll,		40,			12,			1
+Scrolls of Wisdom:	Scroll of Wisdom,	40,			12,			2
+//Chances:			Orb of Chance,		20,			12,			3

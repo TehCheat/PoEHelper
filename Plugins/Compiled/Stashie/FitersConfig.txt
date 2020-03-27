@@ -1,0 +1,100 @@
+//FilterName(menu name):	filters		:ParentMenu(optionaly, will be created automatially for grouping)
+//Filter parts should divided by coma or | (for OR operation(any filter part can pass))
+
+////////////	Available properties:	/////////////////////
+/////////	String (name) properties:
+//classname
+//basename
+//path
+/////////	Numerical properties:
+//itemquality
+//rarity
+//ilvl
+/////////	Boolean properties:
+//identified
+/////////////////////////////////////////////////////////////
+////////////	Available operations:	/////////////////////
+/////////	String (name) operations:
+//!=	(not equal)
+//=		(equal)
+//^		(contains)
+//!^	(not contains)
+/////////	Numerical operations:
+//!=	(not equal)
+//=		(equal)
+//>		(bigger)
+//<		(less)
+//<=	(less or qual)
+//>=	(bigger or qual)
+/////////	Boolean operations:
+//!		(not/invert)
+/////////////////////////////////////////////////////////////
+
+// Optimized f2p loadout for 4 tabs + 3 special tabs: map, fragment, curency
+// Lazy pricing 1 slot items in 4 tabs: 100c/50c/25c/10c
+// 2 extra tabs for individual items
+// Total 13 tabs (1 premium bundle + 4 default tabs + 3 special)
+
+// [0] PriorityLoot
+EmpowerEnlighten:	BaseName^Empower|BaseName^Enlighten 							:PriorityLoot
+Stygian:			BaseName^Stygian Vise 											:PriorityLoot
+
+// [1] Divination cards
+Divination Cards:	ClassName=DivinationCard										:Divination
+
+// [2] Essences Prophecies
+Essences:			BaseName^Essence,ClassName=StackableCurrency					:EssencesProphecies
+Prohpecies:			ClassName!^QuestItem,BaseName=Prophecy							:EssencesProphecies
+
+// [3] Oils Quality Incubators
+Golden Oil: 		BaseName^Golden Oil,Path^Mushrune 						 		:OilsQualityIncubators
+Crimson Oil:        BaseName^Crimson Oil,Path^Mushrune 						 		:OilsQualityIncubators
+Teal Oil: 	        BaseName^Teal Oil,Path^Mushrune 						 		:OilsQualityIncubators
+Other Oils:			BaseName^Oil,Path^Mushrune 										:OilsQualityIncubators
+Quality Gems:		ClassName^Skill Gem,ItemQuality>0								:OilsQualityIncubators
+Quality Flasks:		ClassName^Flask,ItemQuality>0									:OilsQualityIncubators
+Incubators:			ClassName^Incubator												:OilsQualityIncubators
+
+// [4] Delve
+Fossils: 			BaseName^Fossil													:Delve
+Resonator 4:        BaseName^Prime,ClassName=DelveStackableSocketableCurrency       :Delve
+Resonator 3:        BaseName^Powerful,ClassName=DelveStackableSocketableCurrency 	:Delve
+Resonator 2:        BaseName^Potent,ClassName=DelveStackableSocketableCurrency 		:Delve
+Resonator 1:        BaseName^Primitiv,ClassName=DelveStackableSocketableCurrency 	:Delve
+Unique Rings:		Rarity=Unique,ClassName=Ring									:Delve
+
+// [4] Other
+Metamorph organs:	ClassName=MetamorphosisDNA										:Other
+Catalysts:			BaseName^Catalyst												:Other
+Orb of Delirium:	BaseName^Delirium 												:Other
+
+// [5..8] ID rings, amulets, jewels
+ID Jewelery: 		ClassName=Amulet|ClassName=Ring,identified 						:LazyPricing
+ID Jewels:	 		ClassName=AbyssJewel|ClassName=Jewel,identified			 		:LazyPricing
+
+// [special] Maps
+Good Maps:			ClassName=Map 													:SpecialTab1
+
+// [special] Frags
+Breach Splinter: 	BaseName^Splinter,Path^CurrencyBreach 							:SpecialTab2
+TimeLess Splinter: 	BaseName^Splinter,Path^CurrencyLegion 							:SpecialTab2
+Scarab:				BaseName^Scarab													:SpecialTab2
+Sacrifice:			BaseName^Sacrifice												:SpecialTab2
+Map Fragments: 		ClassName=MapFragment 											:SpecialTab2
+Offerings: 			ClassName=LabyrinthMapItem 										:SpecialTab2
+
+// [special] Currency
+Stacked Decks: 		ClassName=StackableCurrency,BaseName=Stacked Deck 				:SpecialTab3
+Currency:			ClassName=StackableCurrency 									:SpecialTab3
+
+//Chaos Recipe LVL 2 (unindentified and ilvl 60 or above)
+Weapons:		!identified,Rarity=Rare,ilvl>=60,ClassName^Two Hand|ClassName^One Hand|ClassName=Bow|ClassName=Staff|ClassName=Sceptre|ClassName=Wand|ClassName=Dagger|ClassName=Rune Dagger|ClassName=Claw|ClassName=Shield :Chaos Recipe
+Jewelry:		!identified,Rarity=Rare,ilvl>=60,ClassName=Ring|ClassName=Amulet 	:Chaos Recipe
+Belts:			!identified,Rarity=Rare,ilvl>=60,ClassName=Belt 					:Chaos Recipe
+Helms:			!identified,Rarity=Rare,ilvl>=60,ClassName=Helmet 					:Chaos Recipe
+Body Armours:	!identified,Rarity=Rare,ilvl>=60,ClassName=Body Armour 				:Chaos Recipe
+Boots:			!identified,Rarity=Rare,ilvl>=60,ClassName=Boots 					:Chaos Recipe
+Gloves:			!identified,Rarity=Rare,ilvl>=60,ClassName=Gloves 					:Chaos Recipe
+
+// [quad] Dump tab
+Everything else:	ilvl>1 															:Dumptab

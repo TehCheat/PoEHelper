@@ -1,0 +1,7 @@
+Metadata/Terrain/Labyrinth/Objects/GoldenDoor
+Metadata/Terrain/Labyrinth/Objects/LabyrinthIzaroDoor
+Metadata/Terrain/Labyrinth/Objects/Puzzle_Parts/Door_Counter
+Metadata/Terrain/Labyrinth/Objects/SilverDoor
+Metadata/Terrain/Labyrinth/Objects/Puzzle_Parts/Door_Open
+Metadata/Terrain/Labyrinth/Objects/Puzzle_Parts/Door_Closed
+Metadata/Terrain/Labyrinth/Objects/LabyrinthSmashableDoor
