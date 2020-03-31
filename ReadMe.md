@@ -7,12 +7,12 @@ This reads the memory of the Path of Exile client application and displays it on
 
 ### Donation Info
 Donations can be made via:
-[PayPal](https://www.paypal.me/TehCheatOC)
-[StreamLabs](https://streamlabs.com/thecheatoc/tip)
+* [PayPal](https://www.paypal.me/TehCheatOC)
+* [StreamLabs](https://streamlabs.com/thecheatoc/tip)
 Crypto:
-BTC - 3HUCmZNnbpV5qLVn3e6MbW9k6byVxT2jxZ
-ETH - 0x5a9a803D669b9D7c49E909bE44b4e2f686A6D49D
-BCH - qr39wjall330uphk6v65uusqunvfyrvz3uem7jnljw
+* BTC - 3HUCmZNnbpV5qLVn3e6MbW9k6byVxT2jxZ
+* ETH - 0x5a9a803D669b9D7c49E909bE44b4e2f686A6D49D
+* BCH - qr39wjall330uphk6v65uusqunvfyrvz3uem7jnljw
 
 ### Keyboard Info
 
