@@ -7,7 +7,7 @@ This reads the memory of the Path of Exile client application and displays it on
 
 ### Donation Info
 Donations can be made via:
-* [PayPal](https://www.paypal.me/TehCheatOC)
+* [PayPal](https://www.paypal.me/TehCheat)
 * [StreamLabs](https://streamlabs.com/thecheatoc/tip)
 
 Crypto:
