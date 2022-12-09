@@ -4,6 +4,9 @@
 # BLIGHT
 Metadata/Monsters/Masters/BlightBuilderWild;Sister Cassia [Blight];ff00FF00
 
+#Harvest
+Metadata/Terrain/Leagues/Harvest/Objects/HarvestPortalToggleableReverse; Harvest; ff037ffc
+
 # LEGION
 Metadata/Monsters/LegionLeague/LegionKaruiGeneral;Queen Hyrri Ngamaku [Karui];ff00FF00
 Metadata/Monsters/LegionLeague/LegionMarakethGeneral;Aukuna, the Black Sekhema [Maraketh];ff00FF00
@@ -541,3 +544,14 @@ Metadata/Monsters/LeagueBestiary/SpiderPlatedBestiary;Fenumal Hybrid Arachnid [P
 Metadata/Monsters/LeagueBestiary/CrabSpiderBestiary;Craicic Spider Crab [Portal to Craiceann's Cove]; ffd2742d
 Metadata/Monsters/LeagueBestiary/HellionBestiary2;Farric Frost Hellion Alpha [Reroll Rare Item Values]; ffd2742d
 Metadata/Monsters/LeagueBestiary/SpiderPlagueBestiary;Fenumal Plagued Arachnid [Split an Item in Two]; ffd2742d
+
+# EXPEDITION
+Metadata/Monsters/LeagueExpedition/NPC/ExpeditionTujen; [EXP] Tujen CURRENCY; fff2ff00
+Metadata/Monsters/LeagueExpedition/NPC/ExpeditionDannig; [EXP] Dannig EZ; ffde0d0d
+Metadata/Monsters/LeagueExpedition/NPC/ExpeditionRog; [EXP] Rog SHIT; ffed0cd3
+Metadata/Monsters/LeagueExpedition/NPC/ExpeditionGwennen_; [EXP] Gwennen GAMBLE; ff20db0f
+
+# SCOURGE
+Metadata/Monsters/LeagueHellscape/FleshFaction/HellscapeFleshBoss; ScourgeBoss Ghorr;ffFF0000
+Metadata/Monsters/LeagueHellscape/PaleFaction/HellscapePaleBoss; ScourgeBoss Beidat;ffFF0000
+Metadata/Monsters/LeagueHellscape/DemonFaction/HellscapeDemonBoss; ScourgeBoss Ktash;ffFF0000
