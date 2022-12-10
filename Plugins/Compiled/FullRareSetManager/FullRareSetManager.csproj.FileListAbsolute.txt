@@ -1,7 +1,0 @@
-E:\projects\FullRareSetManager\obj\Release\FullRareSetManager.csprojAssemblyReference.cache
-E:\projects\FullRareSetManager\obj\Release\FullRareSetManager.csproj.CopyComplete
-E:\FullRareSetManager.dll.config
-E:\projects\FullRareSetManager\obj\Release\FullRareSetManager.dll
-E:\projects\FullRareSetManager\obj\Release\FullRareSetManager.pdb
-E:\FullRareSetManager.dll
-E:\FullRareSetManager.pdb

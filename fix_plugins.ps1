@@ -8,6 +8,7 @@ $content = (Get-Content $_.FullName -Raw) -replace
 "<PackageReference Include=""SharpDX.Desktop"" Version=""[^""]+"" />", "<PackageReference Include=""SharpDX.Desktop"" Version=""4.2.0"" />" -replace
 "<PackageReference Include=""SharpDX.Mathematics"" Version=""[^""]+"" />", "<PackageReference Include=""SharpDX.Mathematics"" Version=""4.2.0"" />" -replace
 "<PackageReference Include=""System.Numerics.Vectors"" Version=""[^""]+"" />", "<PackageReference Include=""System.Numerics.Vectors"" Version=""4.5.0"" />" -replace
+"<PackageReference Include=""ProcessMemoryUtilities.Net"" Version=""[^""]+"" />", "<PackageReference Include=""ProcessMemoryUtilities.Net"" Version=""1.3.4"" />" -replace
 "<PackageReference Include=""System.Runtime.CompilerServices.Unsafe"" Version=""[^""]+"" />", "<PackageReference Include=""System.Runtime.CompilerServices.Unsafe"" Version=""5.0.0"" />"
 if($content -notmatch "AppendTargetFrameworkToOutputPath")
 {

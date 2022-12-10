@@ -10,21 +10,12 @@
       "Loader/1.0.0": {
         "dependencies": {
           "LinqFaster": "1.0.0",
-          "Microsoft.Build.Locator": "1.4.1",
-          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.Build.Locator": "1.5.5",
           "Newtonsoft.Json": "13.0.1",
-          "Serilog": "2.8.0",
-          "Serilog.Sinks.File": "4.0.0",
-          "Serilog.Sinks.RollingFile": "3.3.0",
+          "Serilog": "2.12.0",
+          "Serilog.Sinks.File": "5.0.0",
           "SharpDX": "4.2.0",
-          "SharpDX.D3DCompiler": "4.2.0",
-          "SharpDX.DXGI": "4.2.0",
-          "SharpDX.Desktop": "4.2.0",
-          "SharpDX.Direct2D1": "4.2.0",
-          "SharpDX.Direct3D11": "4.2.0",
-          "SharpDX.Mathematics": "4.2.0",
-          "System.Reflection.Emit": "4.3.0",
-          "System.Reflection.Emit.Lightweight": "4.3.0"
+          "SharpDX.Mathematics": "4.2.0"
         },
         "runtime": {
           "Loader.dll": {}
@@ -38,15 +29,14 @@
           }
         }
       },
-      "Microsoft.Build.Locator/1.4.1": {
+      "Microsoft.Build.Locator/1.5.5": {
         "runtime": {
-          "lib/netcoreapp2.0/Microsoft.Build.Locator.dll": {
+          "lib/netcoreapp3.1/Microsoft.Build.Locator.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.4.1.10311"
+            "fileVersion": "1.5.5.21636"
           }
         }
       },
-      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.NETCore.Platforms/1.1.0": {},
       "Microsoft.NETCore.Targets/1.1.0": {},
       "Microsoft.Win32.Primitives/4.3.0": {
@@ -266,47 +256,22 @@
           "System.Private.Uri": "4.3.0"
         }
       },
-      "Serilog/2.8.0": {
-        "dependencies": {
-          "System.Collections.NonGeneric": "4.3.0"
-        },
+      "Serilog/2.12.0": {
         "runtime": {
-          "lib/netstandard2.0/Serilog.dll": {
+          "lib/net6.0/Serilog.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.8.0.0"
+            "fileVersion": "2.12.0.0"
           }
         }
       },
-      "Serilog.Sinks.File/4.0.0": {
+      "Serilog.Sinks.File/5.0.0": {
         "dependencies": {
-          "Serilog": "2.8.0",
-          "System.IO": "4.3.0",
-          "System.IO.FileSystem": "4.3.0",
-          "System.IO.FileSystem.Primitives": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Text.Encoding.Extensions": "4.3.0",
-          "System.Threading": "4.3.0",
-          "System.Threading.Timer": "4.3.0"
+          "Serilog": "2.12.0"
         },
         "runtime": {
-          "lib/netstandard1.3/Serilog.Sinks.File.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "4.0.0.0"
-          }
-        }
-      },
-      "Serilog.Sinks.RollingFile/3.3.0": {
-        "dependencies": {
-          "Serilog.Sinks.File": "4.0.0",
-          "System.IO": "4.3.0",
-          "System.IO.FileSystem.Primitives": "4.3.0",
-          "System.Runtime.InteropServices": "4.3.0",
-          "System.Text.Encoding.Extensions": "4.3.0"
-        },
-        "runtime": {
-          "lib/netstandard1.3/Serilog.Sinks.RollingFile.dll": {
-            "assemblyVersion": "2.0.0.0",
-            "fileVersion": "3.3.0.0"
+          "lib/net5.0/Serilog.Sinks.File.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
           }
         }
       },
@@ -316,64 +281,6 @@
         },
         "runtime": {
           "lib/netstandard1.1/SharpDX.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.0"
-          }
-        }
-      },
-      "SharpDX.D3DCompiler/4.2.0": {
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "SharpDX": "4.2.0"
-        },
-        "runtime": {
-          "lib/netstandard1.1/SharpDX.D3DCompiler.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.0"
-          }
-        }
-      },
-      "SharpDX.Desktop/4.2.0": {
-        "runtime": {
-          "lib/net45/SharpDX.Desktop.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.0"
-          }
-        }
-      },
-      "SharpDX.Direct2D1/4.2.0": {
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "SharpDX": "4.2.0",
-          "SharpDX.DXGI": "4.2.0"
-        },
-        "runtime": {
-          "lib/netstandard1.1/SharpDX.Direct2D1.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.0"
-          }
-        }
-      },
-      "SharpDX.Direct3D11/4.2.0": {
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "SharpDX": "4.2.0",
-          "SharpDX.DXGI": "4.2.0"
-        },
-        "runtime": {
-          "lib/netstandard1.1/SharpDX.Direct3D11.dll": {
-            "assemblyVersion": "4.2.0.0",
-            "fileVersion": "4.2.0.0"
-          }
-        }
-      },
-      "SharpDX.DXGI/4.2.0": {
-        "dependencies": {
-          "NETStandard.Library": "1.6.1",
-          "SharpDX": "4.2.0"
-        },
-        "runtime": {
-          "lib/netstandard1.1/SharpDX.DXGI.dll": {
             "assemblyVersion": "4.2.0.0",
             "fileVersion": "4.2.0.0"
           }
@@ -425,16 +332,6 @@
           "System.Runtime.Extensions": "4.3.0",
           "System.Threading": "4.3.0",
           "System.Threading.Tasks": "4.3.0"
-        }
-      },
-      "System.Collections.NonGeneric/4.3.0": {
-        "dependencies": {
-          "System.Diagnostics.Debug": "4.3.0",
-          "System.Globalization": "4.3.0",
-          "System.Resources.ResourceManager": "4.3.0",
-          "System.Runtime": "4.3.0",
-          "System.Runtime.Extensions": "4.3.0",
-          "System.Threading": "4.3.0"
         }
       },
       "System.Console/4.3.0": {
@@ -1066,19 +963,12 @@
       "path": "linqfaster/1.0.0",
       "hashPath": "linqfaster.1.0.0.nupkg.sha512"
     },
-    "Microsoft.Build.Locator/1.4.1": {
+    "Microsoft.Build.Locator/1.5.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UfyGaxNTjw/r3uWMX/Cv1CPKELo7TCrR5VIahaSKL0WyqmbDT6og9pyjwuhyyUkxC9gk2ElB7oOEySL1OzTZ1g==",
-      "path": "microsoft.build.locator/1.4.1",
-      "hashPath": "microsoft.build.locator.1.4.1.nupkg.sha512"
-    },
-    "Microsoft.CSharp/4.7.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
-      "path": "microsoft.csharp/4.7.0",
-      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
+      "sha512": "sha512-ZuXb72Shd0kiNyVx+R9x8b51cvIdtZRt6V5O5jbtl7+p6j+q9wNgU69qGp1Rmtq9/yPyqvd39tW4xQJvb/LLSA==",
+      "path": "microsoft.build.locator/1.5.5",
+      "hashPath": "microsoft.build.locator.1.5.5.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -1395,26 +1285,19 @@
       "path": "runtime.win.system.runtime.extensions/4.3.0",
       "hashPath": "runtime.win.system.runtime.extensions.4.3.0.nupkg.sha512"
     },
-    "Serilog/2.8.0": {
+    "Serilog/2.12.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zjuKXW5IQws43IHX7VY9nURsaCiBYh2kyJCWLJRSWrTsx/syBKHV8MibWe2A+QH3Er0AiwA+OJmO3DhFJDY1+A==",
-      "path": "serilog/2.8.0",
-      "hashPath": "serilog.2.8.0.nupkg.sha512"
+      "sha512": "sha512-xaiJLIdu6rYMKfQMYUZgTy8YK7SMZjB4Yk50C/u//Z4OsvxkUfSPJy4nknfvwAC34yr13q7kcyh4grbwhSxyZg==",
+      "path": "serilog/2.12.0",
+      "hashPath": "serilog.2.12.0.nupkg.sha512"
     },
-    "Serilog.Sinks.File/4.0.0": {
+    "Serilog.Sinks.File/5.0.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vBj43RkAbeP1dzoPFR2+LfV5GevDRPDq6265JJBv223lMvT9rfdwe/S/I9ow7aZSLYKfw4qPDw6NW8YwjbDbvg==",
-      "path": "serilog.sinks.file/4.0.0",
-      "hashPath": "serilog.sinks.file.4.0.0.nupkg.sha512"
-    },
-    "Serilog.Sinks.RollingFile/3.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-2lT5X1r3GH4P0bRWJfhA7etGl8Q2Ipw9AACvtAHWRUSpYZ42NGVyHoVs2ALBZ/cAkkS+tA4jl80Zie144eLQPg==",
-      "path": "serilog.sinks.rollingfile/3.3.0",
-      "hashPath": "serilog.sinks.rollingfile.3.3.0.nupkg.sha512"
+      "sha512": "sha512-uwV5hdhWPwUH1szhO8PJpFiahqXmzPzJT/sOijH/kFgUx+cyoDTMM8MHD0adw9+Iem6itoibbUXHYslzXsLEAg==",
+      "path": "serilog.sinks.file/5.0.0",
+      "hashPath": "serilog.sinks.file.5.0.0.nupkg.sha512"
     },
     "SharpDX/4.2.0": {
       "type": "package",
@@ -1422,41 +1305,6 @@
       "sha512": "sha512-3pv0LFMvfK/dv1qISJnn8xBeeT6R/FRvr0EV4KI2DGsL84Qlv6P7isWqxGyU0LCwlSVCJN3jgHJ4Bl0KI2PJww==",
       "path": "sharpdx/4.2.0",
       "hashPath": "sharpdx.4.2.0.nupkg.sha512"
-    },
-    "SharpDX.D3DCompiler/4.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Rnsd6Ilp127xbXqhTit8WKFQUrXwWxqVGpglyWDNkIBCk0tWXNQEjrJpsl0KAObzyZaa33+EXAikLVt5fnd3GA==",
-      "path": "sharpdx.d3dcompiler/4.2.0",
-      "hashPath": "sharpdx.d3dcompiler.4.2.0.nupkg.sha512"
-    },
-    "SharpDX.Desktop/4.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-nkxmSzxiPIg2Moz+8tlNo9b4A+fnUvRte9jBTqqmRUnwItNeAeRPU2fNZERfhsN4GPq2VvAskJLZNAxGpzKBPA==",
-      "path": "sharpdx.desktop/4.2.0",
-      "hashPath": "sharpdx.desktop.4.2.0.nupkg.sha512"
-    },
-    "SharpDX.Direct2D1/4.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Qs8LzDMaQf1u3KB8ArHu9pDv6itZ++QXs99a/bVAG+nKr0Hx5NG4mcN5vsfE0mVR2TkeHfeUm4PksRah6VUPtA==",
-      "path": "sharpdx.direct2d1/4.2.0",
-      "hashPath": "sharpdx.direct2d1.4.2.0.nupkg.sha512"
-    },
-    "SharpDX.Direct3D11/4.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-oTm/iT5X/IIuJ8kNYP+DTC/MhBhqtRF5dbgPPFgLBdQv0BKzNTzXQQXd7SveBFjQg6hXEAJ2jGCAzNYvGFc9LA==",
-      "path": "sharpdx.direct3d11/4.2.0",
-      "hashPath": "sharpdx.direct3d11.4.2.0.nupkg.sha512"
-    },
-    "SharpDX.DXGI/4.2.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-UjKqkgWc8U+SP+j3LBzFP6OB6Ntapjih7Xo+g1rLcsGbIb5KwewBrBChaUu7sil8rWoeVU/k0EJd3SMN4VqNZw==",
-      "path": "sharpdx.dxgi/4.2.0",
-      "hashPath": "sharpdx.dxgi.4.2.0.nupkg.sha512"
     },
     "SharpDX.Mathematics/4.2.0": {
       "type": "package",
@@ -1492,13 +1340,6 @@
       "sha512": "sha512-ztl69Xp0Y/UXCL+3v3tEU+lIy+bvjKNUmopn1wep/a291pVPK7dxBd6T7WnlQqRog+d1a/hSsgRsmFnIBKTPLQ==",
       "path": "system.collections.concurrent/4.3.0",
       "hashPath": "system.collections.concurrent.4.3.0.nupkg.sha512"
-    },
-    "System.Collections.NonGeneric/4.3.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
-      "path": "system.collections.nongeneric/4.3.0",
-      "hashPath": "system.collections.nongeneric.4.3.0.nupkg.sha512"
     },
     "System.Console/4.3.0": {
       "type": "package",
