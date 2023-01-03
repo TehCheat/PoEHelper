@@ -10,7 +10,7 @@
       "BuffUtil/1.0.0": {
         "dependencies": {
           "ExileCore": "1.0.0",
-          "InputSimulator": "1.0.4"
+          "InputSimulatorCore": "1.0.5"
         },
         "runtime": {
           "BuffUtil.dll": {}
@@ -34,11 +34,11 @@
           }
         }
       },
-      "InputSimulator/1.0.4": {
+      "InputSimulatorCore/1.0.5": {
         "runtime": {
-          "lib/net20/WindowsInput.dll": {
-            "assemblyVersion": "1.0.4.0",
-            "fileVersion": "1.0.4.0"
+          "lib/netstandard2.0/WindowsInput.dll": {
+            "assemblyVersion": "1.0.5.0",
+            "fileVersion": "1.0.5.0"
           }
         }
       },
@@ -1326,12 +1326,12 @@
       "path": "imgui.net/1.88.0",
       "hashPath": "imgui.net.1.88.0.nupkg.sha512"
     },
-    "InputSimulator/1.0.4": {
+    "InputSimulatorCore/1.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-D0LvRCPQMX6/FJHBjng+RO+wRDuHTJrfo7IAc7rmkPvRqchdVGJWg3y70peOtDy3OLNK+HSOwVkH4GiuLnkKgA==",
-      "path": "inputsimulator/1.0.4",
-      "hashPath": "inputsimulator.1.0.4.nupkg.sha512"
+      "sha512": "sha512-mLYv9geqp8gG0HjvmbhL5+0v8LmGBgawOS3FHRtK0tGYp0VWfLe8lhYYXUH+vZP1Su+0v0HJQjBx5Jy2wbtYBQ==",
+      "path": "inputsimulatorcore/1.0.5",
+      "hashPath": "inputsimulatorcore.1.0.5.nupkg.sha512"
     },
     "LinqFaster/1.0.0": {
       "type": "package",
