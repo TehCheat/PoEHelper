@@ -1,0 +1,19 @@
+You can create your own plugins using the supplied plugin template (exApiTools.Plugin.Template).
+To do this, first install the template on your system:
+dotnet new install exApiTools.Plugin.Template.1.0.0.nupkg
+
+Then, in a folder where you want your plugin sources, run:
+dotnet new exApiPlugin -n MyPlugin
+A folder with all the required files will be created, study its contents and develop your plugin.
+When you want to test your plugin with HUD, simply put in Plugins/Source like this:
+Plugins
+|
+->Source
+  |
+  ->MyPlugin
+    |
+    ->MyPlugin.csproj
+      file1.cs
+      file2.cs
+      ...
+After this, launch the HUD and you'll either be presented with compilation issues or the plugin will load.

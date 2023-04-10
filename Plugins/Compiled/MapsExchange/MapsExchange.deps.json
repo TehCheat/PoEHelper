@@ -10,7 +10,8 @@
       "MapsExchange/1.0.0": {
         "dependencies": {
           "ExileCore": "1.0.0",
-          "SharpDX.Mathematics": "4.2.0"
+          "SharpDX.Mathematics": "4.2.0",
+          "ExileCore.Reference": "1.0.0.0"
         },
         "runtime": {
           "MapsExchange.dll": {}
@@ -1224,72 +1225,78 @@
           }
         }
       },
-      "Vortice.D3DCompiler/2.1.41": {
-        "dependencies": {
-          "SharpGen.Runtime": "2.0.0-beta.11",
-          "Vortice.DirectX": "2.1.41"
-        },
-        "runtime": {
-          "lib/net6.0/Vortice.D3DCompiler.dll": {
-            "assemblyVersion": "2.1.41.0",
-            "fileVersion": "2.1.41.0"
-          }
-        }
-      },
-      "Vortice.Direct3D11/2.1.41": {
-        "dependencies": {
-          "SharpGen.Runtime": "2.0.0-beta.11",
-          "Vortice.DXGI": "2.1.41"
-        },
-        "runtime": {
-          "lib/net6.0/Vortice.Direct3D11.dll": {
-            "assemblyVersion": "2.1.41.0",
-            "fileVersion": "2.1.41.0"
-          }
-        }
-      },
-      "Vortice.DirectX/2.1.41": {
+      "Vortice.D3DCompiler/2.2.0": {
         "dependencies": {
           "SharpGen.Runtime": "2.0.0-beta.11",
           "SharpGen.Runtime.COM": "2.0.0-beta.11",
-          "Vortice.Mathematics": "1.4.19"
+          "Vortice.DirectX": "2.2.0",
+          "Vortice.Mathematics": "1.4.22"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.D3DCompiler.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Vortice.Direct3D11/2.2.0": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "SharpGen.Runtime.COM": "2.0.0-beta.11",
+          "Vortice.DXGI": "2.2.0",
+          "Vortice.Mathematics": "1.4.22"
+        },
+        "runtime": {
+          "lib/net6.0/Vortice.Direct3D11.dll": {
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
+          }
+        }
+      },
+      "Vortice.DirectX/2.2.0": {
+        "dependencies": {
+          "SharpGen.Runtime": "2.0.0-beta.11",
+          "SharpGen.Runtime.COM": "2.0.0-beta.11",
+          "Vortice.Mathematics": "1.4.22"
         },
         "runtime": {
           "lib/net6.0/Vortice.DirectX.dll": {
-            "assemblyVersion": "2.1.41.0",
-            "fileVersion": "2.1.41.0"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
           }
         }
       },
-      "Vortice.DXGI/2.1.41": {
+      "Vortice.DXGI/2.2.0": {
         "dependencies": {
           "SharpGen.Runtime": "2.0.0-beta.11",
-          "Vortice.DirectX": "2.1.41"
+          "SharpGen.Runtime.COM": "2.0.0-beta.11",
+          "Vortice.DirectX": "2.2.0",
+          "Vortice.Mathematics": "1.4.22"
         },
         "runtime": {
           "lib/net6.0/Vortice.DXGI.dll": {
-            "assemblyVersion": "2.1.41.0",
-            "fileVersion": "2.1.41.0"
+            "assemblyVersion": "2.2.0.0",
+            "fileVersion": "2.2.0.0"
           }
         }
       },
-      "Vortice.Mathematics/1.4.19": {
+      "Vortice.Mathematics/1.4.22": {
         "runtime": {
           "lib/net6.0/Vortice.Mathematics.dll": {
             "assemblyVersion": "1.4.0.0",
-            "fileVersion": "1.4.19.13609"
+            "fileVersion": "1.4.22.45141"
           }
         }
       },
-      "ClickableTransparentOverlay/6.0.2": {
+      "ClickableTransparentOverlay/6.2.1": {
         "dependencies": {
           "ImGui.NET": "1.88.0",
           "SixLabors.ImageSharp": "2.1.3",
           "Vanara.PInvoke.DwmApi": "3.4.11",
           "Vanara.PInvoke.Kernel32": "3.4.11",
           "Vanara.PInvoke.User32": "3.4.11",
-          "Vortice.D3DCompiler": "2.1.41",
-          "Vortice.Direct3D11": "2.1.41"
+          "Vortice.D3DCompiler": "2.2.0",
+          "Vortice.Direct3D11": "2.2.0"
         },
         "runtime": {
           "ClickableTransparentOverlay.dll": {}
@@ -1297,7 +1304,7 @@
       },
       "ExileCore/1.0.0": {
         "dependencies": {
-          "ClickableTransparentOverlay": "6.0.2",
+          "ClickableTransparentOverlay": "6.2.1",
           "GameOffsets": "1.0.0",
           "ImGui.NET": "1.88.0",
           "LinqFaster": "1.0.0",
@@ -1329,6 +1336,14 @@
         },
         "runtime": {
           "GameOffsets.dll": {}
+        }
+      },
+      "ExileCore.Reference/1.0.0.0": {
+        "runtime": {
+          "ExileCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
@@ -2403,42 +2418,42 @@
       "path": "vanara.pinvoke.user32/3.4.11",
       "hashPath": "vanara.pinvoke.user32.3.4.11.nupkg.sha512"
     },
-    "Vortice.D3DCompiler/2.1.41": {
+    "Vortice.D3DCompiler/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-hu2kS71g5wRTuusAMntF0I57e/2kQjzNuoPiDswZVi7AnghBDuv8dtICyFSTOs/kmEs095sZRyYY1O2dFC7d6A==",
-      "path": "vortice.d3dcompiler/2.1.41",
-      "hashPath": "vortice.d3dcompiler.2.1.41.nupkg.sha512"
+      "sha512": "sha512-ARxozSyG56Io80swqmdpMrEmvNTvRGPwh/JmAiW2YuyeSnOzeiY8tgQ9dXA1D1H50gyTTTi0CcRy6G2b1KhQcg==",
+      "path": "vortice.d3dcompiler/2.2.0",
+      "hashPath": "vortice.d3dcompiler.2.2.0.nupkg.sha512"
     },
-    "Vortice.Direct3D11/2.1.41": {
+    "Vortice.Direct3D11/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-lC4TNFa5egh9h2sP6c2p/vaH4/VuB/Ytgk8/EkaJjSattLP1p4QxKrLYbiBayRCLtNg14NPBxCLeTsFBRQCjFQ==",
-      "path": "vortice.direct3d11/2.1.41",
-      "hashPath": "vortice.direct3d11.2.1.41.nupkg.sha512"
+      "sha512": "sha512-mWnwsei5wIrYE43GWV9ATvQMo7BsQZKjZgO7MvXvyB9qJMJ5gRlpEeSypbja4IECil2N+PCP+HrYuPGw5yeSxw==",
+      "path": "vortice.direct3d11/2.2.0",
+      "hashPath": "vortice.direct3d11.2.2.0.nupkg.sha512"
     },
-    "Vortice.DirectX/2.1.41": {
+    "Vortice.DirectX/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-S8nJIRR0vxZ2Nfh6O7hlXMjz4lZ9CWV2+xTFyKRLVRk3GmaKwCnU+pr4WBZNqZY1dGle3zBXaUtqDXOjReoxPg==",
-      "path": "vortice.directx/2.1.41",
-      "hashPath": "vortice.directx.2.1.41.nupkg.sha512"
+      "sha512": "sha512-9WfX/vYE5h4RyVsHo58aJRVJ8CuT3sXPvNNos+UWaW5lufNw/qwTVnEjW2HtGpleHEkaZ2DxGhRIU6eMRxmrgw==",
+      "path": "vortice.directx/2.2.0",
+      "hashPath": "vortice.directx.2.2.0.nupkg.sha512"
     },
-    "Vortice.DXGI/2.1.41": {
+    "Vortice.DXGI/2.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Tw78sDs1Ny4rEfZnKfeA95cMS1vcjpe2lO0fOh35GU5Nmckikc2s36QtHMCmCl1W++5pmmM0fLW9/EyVnCuoGg==",
-      "path": "vortice.dxgi/2.1.41",
-      "hashPath": "vortice.dxgi.2.1.41.nupkg.sha512"
+      "sha512": "sha512-aMAT/R1PHW1jAajEKrM0SdmvzylH4TofKw55vpWAIP2eBFfS9VHO23x1SV/UZDc9oIb+HozOEwWp2f9nNizlQQ==",
+      "path": "vortice.dxgi/2.2.0",
+      "hashPath": "vortice.dxgi.2.2.0.nupkg.sha512"
     },
-    "Vortice.Mathematics/1.4.19": {
+    "Vortice.Mathematics/1.4.22": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ld+NyY8tjfKpv73brR3LFagYLBAHLHxMcnMOxmYm+1ajZMqh17+7Qokh3c2vsUS/ExsE/AySG7TvciPwrCo1zQ==",
-      "path": "vortice.mathematics/1.4.19",
-      "hashPath": "vortice.mathematics.1.4.19.nupkg.sha512"
+      "sha512": "sha512-YQ6ftiwjaO+cioO8fwEpIaIjbH7cWpHWZF+PoK5sIYdTCo5apj6G0dU3h7NZqPEhon5uUGG798XkfQR3dVHQrA==",
+      "path": "vortice.mathematics/1.4.22",
+      "hashPath": "vortice.mathematics.1.4.22.nupkg.sha512"
     },
-    "ClickableTransparentOverlay/6.0.2": {
+    "ClickableTransparentOverlay/6.2.1": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -2450,6 +2465,11 @@
     },
     "GameOffsets/1.0.0": {
       "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ExileCore.Reference/1.0.0.0": {
+      "type": "reference",
       "serviceable": false,
       "sha512": ""
     }
