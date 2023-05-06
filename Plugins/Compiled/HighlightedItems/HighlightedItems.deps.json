@@ -9,14 +9,14 @@
     ".NETCoreApp,Version=v6.0/win-x64": {
       "HighlightedItems/1.0.0": {
         "dependencies": {
-          "ImGui.NET": "1.87.3",
+          "ImGui.NET": "1.88.0",
           "SharpDX.Mathematics": "4.2.0"
         },
         "runtime": {
           "HighlightedItems.dll": {}
         }
       },
-      "ImGui.NET/1.87.3": {
+      "ImGui.NET/1.88.0": {
         "dependencies": {
           "System.Buffers": "4.4.0",
           "System.Numerics.Vectors": "4.4.0",
@@ -24,8 +24,8 @@
         },
         "runtime": {
           "lib/net6.0/ImGui.NET.dll": {
-            "assemblyVersion": "1.87.3.0",
-            "fileVersion": "1.87.3.0"
+            "assemblyVersion": "1.88.0.0",
+            "fileVersion": "1.88.0.0"
           }
         },
         "native": {
@@ -920,12 +920,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ImGui.NET/1.87.3": {
+    "ImGui.NET/1.88.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-pYKUrXtvinMZiWToAzGhAGXscPr1B/NVVADbfbBlpl9waaVtB/7q9Zx07HyjivE44f8u1W1L++iwwfrCS3Sw3w==",
-      "path": "imgui.net/1.87.3",
-      "hashPath": "imgui.net.1.87.3.nupkg.sha512"
+      "sha512": "sha512-5pYlZ4juw1+HaWD8sM8aPqUFcS3b1SHDCXBxfZ02ID96SKHp1icAKKiS0VJA9MbSATQGQd9lAAkY5p8JZGzomA==",
+      "path": "imgui.net/1.88.0",
+      "hashPath": "imgui.net.1.88.0.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
