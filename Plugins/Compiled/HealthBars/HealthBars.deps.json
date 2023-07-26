@@ -12,6 +12,7 @@
           "ExileCore": "1.0.0",
           "GameOffsets": "1.0.0",
           "ImGui.NET": "1.88.0",
+          "Newtonsoft.Json": "13.0.1",
           "SharpDX": "4.2.0",
           "SharpDX.Mathematics": "4.2.0",
           "ExileCore.Reference": "1.0.0.0"
