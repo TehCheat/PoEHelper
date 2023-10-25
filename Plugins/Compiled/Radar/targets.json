@@ -2111,6 +2111,48 @@
       "DisplayName": "Secret door"
     }
   ],
+  "Sanctum*": [
+    {
+      "Name": "airlock_transition",
+      "ExpectedCount": 10,
+      "DisplayName": "Transition"
+    },
+    {
+      "Name": "square_transition",
+      "ExpectedCount": 10,
+      "DisplayName": "Transition"
+    },
+    {
+      "Name": "areatransition",
+      "ExpectedCount": 1,
+      "DisplayName": "Transition"
+    },
+    {
+      "Name": "transition_down",
+      "ExpectedCount": 2,
+      "DisplayName": "Transition"
+    },
+    {
+      "Name": "exitdown",
+      "ExpectedCount": 1,
+      "DisplayName": "Transition"
+    },
+    {
+      "Name": "entrance_upper",
+      "ExpectedCount": 1,
+      "DisplayName": "Transition"
+    },
+    {
+      "Name": "abyss_transition",
+      "ExpectedCount": 1,
+      "DisplayName": "Transition"
+    },
+    {
+      "Name": "transition",
+      "ExpectedCount": 3,
+      "DisplayName": "Transition"
+    }
+  ],
   "*Heist*": [
     {
       "Name": "Metadata/MiscellaneousObjects/Heist/CurioDisplayRoomMarker",
