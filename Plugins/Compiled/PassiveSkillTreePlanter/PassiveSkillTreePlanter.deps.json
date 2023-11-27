@@ -1,24 +1,24 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "name": ".NETCoreApp,Version=v8.0/win-x64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {},
-    ".NETCoreApp,Version=v6.0/win-x64": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/win-x64": {
       "PassiveSkillTreePlanter/1.0.0": {
         "dependencies": {
-          "ImGui.NET": "1.88.0",
-          "Newtonsoft.Json": "13.0.1",
-          "Serilog": "2.12.0",
+          "ImGui.NET": "1.90.0.1",
+          "Newtonsoft.Json": "13.0.3",
+          "Serilog": "3.1.1",
           "SharpDX.Mathematics": "4.2.0"
         },
         "runtime": {
           "PassiveSkillTreePlanter.dll": {}
         }
       },
-      "ImGui.NET/1.88.0": {
+      "ImGui.NET/1.90.0.1": {
         "dependencies": {
           "System.Buffers": "4.4.0",
           "System.Numerics.Vectors": "4.4.0",
@@ -26,8 +26,8 @@
         },
         "runtime": {
           "lib/net6.0/ImGui.NET.dll": {
-            "assemblyVersion": "1.88.0.0",
-            "fileVersion": "1.88.0.0"
+            "assemblyVersion": "1.90.0.1",
+            "fileVersion": "1.90.0.1"
           }
         },
         "native": {
@@ -94,11 +94,11 @@
           "System.Xml.XDocument": "4.3.0"
         }
       },
-      "Newtonsoft.Json/13.0.1": {
+      "Newtonsoft.Json/13.0.3": {
         "runtime": {
-          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
             "assemblyVersion": "13.0.0.0",
-            "fileVersion": "13.0.1.25517"
+            "fileVersion": "13.0.3.27908"
           }
         }
       },
@@ -255,11 +255,11 @@
           "System.Private.Uri": "4.3.0"
         }
       },
-      "Serilog/2.12.0": {
+      "Serilog/3.1.1": {
         "runtime": {
-          "lib/net6.0/Serilog.dll": {
+          "lib/net7.0/Serilog.dll": {
             "assemblyVersion": "2.0.0.0",
-            "fileVersion": "2.12.0.0"
+            "fileVersion": "3.1.1.0"
           }
         }
       },
@@ -938,12 +938,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ImGui.NET/1.88.0": {
+    "ImGui.NET/1.90.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5pYlZ4juw1+HaWD8sM8aPqUFcS3b1SHDCXBxfZ02ID96SKHp1icAKKiS0VJA9MbSATQGQd9lAAkY5p8JZGzomA==",
-      "path": "imgui.net/1.88.0",
-      "hashPath": "imgui.net.1.88.0.nupkg.sha512"
+      "sha512": "sha512-ZhEN7SKx5e9bbWY5BR2tNdbl7W4cJXaESwFRGo6p2pUSM9Y8yxtWq2zM4Qf8a8HYCmblHuFWtp8YcZiWlcJ3ZQ==",
+      "path": "imgui.net/1.90.0.1",
+      "hashPath": "imgui.net.1.90.0.1.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
@@ -973,12 +973,12 @@
       "path": "netstandard.library/1.6.1",
       "hashPath": "netstandard.library.1.6.1.nupkg.sha512"
     },
-    "Newtonsoft.Json/13.0.1": {
+    "Newtonsoft.Json/13.0.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
-      "path": "newtonsoft.json/13.0.1",
-      "hashPath": "newtonsoft.json.13.0.1.nupkg.sha512"
+      "sha512": "sha512-HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "path": "newtonsoft.json/13.0.3",
+      "hashPath": "newtonsoft.json.13.0.3.nupkg.sha512"
     },
     "runtime.any.System.Collections/4.3.0": {
       "type": "package",
@@ -1260,12 +1260,12 @@
       "path": "runtime.win.system.runtime.extensions/4.3.0",
       "hashPath": "runtime.win.system.runtime.extensions.4.3.0.nupkg.sha512"
     },
-    "Serilog/2.12.0": {
+    "Serilog/3.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-xaiJLIdu6rYMKfQMYUZgTy8YK7SMZjB4Yk50C/u//Z4OsvxkUfSPJy4nknfvwAC34yr13q7kcyh4grbwhSxyZg==",
-      "path": "serilog/2.12.0",
-      "hashPath": "serilog.2.12.0.nupkg.sha512"
+      "sha512": "sha512-P6G4/4Kt9bT635bhuwdXlJ2SCqqn2nhh4gqFqQueCOr9bK/e7W9ll/IoX1Ter948cV2Z/5+5v8pAfJYUISY03A==",
+      "path": "serilog/3.1.1",
+      "hashPath": "serilog.3.1.1.nupkg.sha512"
     },
     "SharpDX/4.2.0": {
       "type": "package",

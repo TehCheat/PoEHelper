@@ -1,23 +1,24 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "name": ".NETCoreApp,Version=v8.0/win-x64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {},
-    ".NETCoreApp,Version=v6.0/win-x64": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/win-x64": {
       "Stashie/1.0.0": {
         "dependencies": {
-          "ImGui.NET": "1.88.0",
+          "ImGui.NET": "1.90.0.1",
           "LinqFaster": "1.0.0",
-          "SharpDX.Mathematics": "4.2.0"
+          "SharpDX.Mathematics": "4.2.0",
+          "ExileCore": "1.0.0.0"
         },
         "runtime": {
           "Stashie.dll": {}
         }
       },
-      "ImGui.NET/1.88.0": {
+      "ImGui.NET/1.90.0.1": {
         "dependencies": {
           "System.Buffers": "4.4.0",
           "System.Numerics.Vectors": "4.4.0",
@@ -25,8 +26,8 @@
         },
         "runtime": {
           "lib/net6.0/ImGui.NET.dll": {
-            "assemblyVersion": "1.88.0.0",
-            "fileVersion": "1.88.0.0"
+            "assemblyVersion": "1.90.0.1",
+            "fileVersion": "1.90.0.1"
           }
         },
         "native": {
@@ -920,6 +921,222 @@
           "System.Threading": "4.3.0",
           "System.Xml.ReaderWriter": "4.3.0"
         }
+      },
+      "ExileCore/1.0.0.0": {
+        "runtime": {
+          "ExileCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ClickableTransparentOverlay/9.1.0.0": {
+        "runtime": {
+          "ClickableTransparentOverlay.dll": {
+            "assemblyVersion": "9.1.0.0",
+            "fileVersion": "9.1.0.0"
+          }
+        }
+      },
+      "Serilog/2.0.0.0": {
+        "runtime": {
+          "Serilog.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "3.1.1.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.User32/3.4.17.0": {
+        "runtime": {
+          "Vanara.PInvoke.User32.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "Newtonsoft.Json/13.0.0.0": {
+        "runtime": {
+          "Newtonsoft.Json.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.3.27908"
+          }
+        }
+      },
+      "GameOffsets/1.0.0.0": {
+        "runtime": {
+          "GameOffsets.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "SharpDX.XAudio2/4.2.0.0": {
+        "runtime": {
+          "SharpDX.XAudio2.dll": {
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
+          }
+        }
+      },
+      "MoreLinq/4.0.0.0": {
+        "runtime": {
+          "MoreLinq.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.DwmApi/3.4.17.0": {
+        "runtime": {
+          "Vanara.PInvoke.DwmApi.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Kernel32/3.4.17.0": {
+        "runtime": {
+          "Vanara.PInvoke.Kernel32.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "ProcessMemoryUtilities/1.3.4.0": {
+        "runtime": {
+          "ProcessMemoryUtilities.dll": {
+            "assemblyVersion": "1.3.4.0",
+            "fileVersion": "1.3.4.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Shared/3.4.17.0": {
+        "runtime": {
+          "Vanara.PInvoke.Shared.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "System.Runtime.Caching/8.0.0.0": {
+        "runtime": {
+          "System.Runtime.Caching.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.23.53103"
+          }
+        }
+      },
+      "SixLabors.ImageSharp/2.0.0.0": {
+        "runtime": {
+          "SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.1.3.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Multimedia/3.4.17.0": {
+        "runtime": {
+          "Vanara.PInvoke.Multimedia.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "Serilog.Sinks.File/5.0.0.0": {
+        "runtime": {
+          "Serilog.Sinks.File.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Build.Locator/1.0.0.0": {
+        "runtime": {
+          "Microsoft.Build.Locator.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.6.10.57384"
+          }
+        }
+      },
+      "Vanara.Core/3.4.17.0": {
+        "runtime": {
+          "Vanara.Core.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "Vortice.Direct3D11/3.3.4.0": {
+        "runtime": {
+          "Vortice.Direct3D11.dll": {
+            "assemblyVersion": "3.3.4.0",
+            "fileVersion": "3.3.4.0"
+          }
+        }
+      },
+      "Vortice.DirectX/3.3.4.0": {
+        "runtime": {
+          "Vortice.DirectX.dll": {
+            "assemblyVersion": "3.3.4.0",
+            "fileVersion": "3.3.4.0"
+          }
+        }
+      },
+      "Vortice.Mathematics/1.7.2.0": {
+        "runtime": {
+          "Vortice.Mathematics.dll": {
+            "assemblyVersion": "1.7.2.0",
+            "fileVersion": "1.7.2.0"
+          }
+        }
+      },
+      "Vortice.DXGI/3.3.4.0": {
+        "runtime": {
+          "Vortice.DXGI.dll": {
+            "assemblyVersion": "3.3.4.0",
+            "fileVersion": "3.3.4.0"
+          }
+        }
+      },
+      "SharpGen.Runtime/2.1.2.0": {
+        "runtime": {
+          "SharpGen.Runtime.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
+      },
+      "Vortice.D3DCompiler/3.3.4.0": {
+        "runtime": {
+          "Vortice.D3DCompiler.dll": {
+            "assemblyVersion": "3.3.4.0",
+            "fileVersion": "3.3.4.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.Gdi32/3.4.17.0": {
+        "runtime": {
+          "Vanara.PInvoke.Gdi32.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "Vanara.PInvoke.ComDlg32/3.4.17.0": {
+        "runtime": {
+          "Vanara.PInvoke.ComDlg32.dll": {
+            "assemblyVersion": "3.4.17.0",
+            "fileVersion": "3.4.17.0"
+          }
+        }
+      },
+      "SharpGen.Runtime.COM/2.1.2.0": {
+        "runtime": {
+          "SharpGen.Runtime.COM.dll": {
+            "assemblyVersion": "2.1.2.0",
+            "fileVersion": "2.1.2.0"
+          }
+        }
       }
     }
   },
@@ -929,12 +1146,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "ImGui.NET/1.88.0": {
+    "ImGui.NET/1.90.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-5pYlZ4juw1+HaWD8sM8aPqUFcS3b1SHDCXBxfZ02ID96SKHp1icAKKiS0VJA9MbSATQGQd9lAAkY5p8JZGzomA==",
-      "path": "imgui.net/1.88.0",
-      "hashPath": "imgui.net.1.88.0.nupkg.sha512"
+      "sha512": "sha512-ZhEN7SKx5e9bbWY5BR2tNdbl7W4cJXaESwFRGo6p2pUSM9Y8yxtWq2zM4Qf8a8HYCmblHuFWtp8YcZiWlcJ3ZQ==",
+      "path": "imgui.net/1.90.0.1",
+      "hashPath": "imgui.net.1.90.0.1.nupkg.sha512"
     },
     "LinqFaster/1.0.0": {
       "type": "package",
@@ -1691,6 +1908,141 @@
       "sha512": "sha512-5zJ0XDxAIg8iy+t4aMnQAu0MqVbqyvfoUVl1yDV61xdo3Vth45oA2FoY4pPkxYAH5f8ixpmTqXeEIya95x0aCQ==",
       "path": "system.xml.xdocument/4.3.0",
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
+    },
+    "ExileCore/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClickableTransparentOverlay/9.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vanara.PInvoke.User32/3.4.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/13.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GameOffsets/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpDX.XAudio2/4.2.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoreLinq/4.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vanara.PInvoke.DwmApi/3.4.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vanara.PInvoke.Kernel32/3.4.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ProcessMemoryUtilities/1.3.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vanara.PInvoke.Shared/3.4.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Runtime.Caching/8.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SixLabors.ImageSharp/2.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vanara.PInvoke.Multimedia/3.4.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Serilog.Sinks.File/5.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Build.Locator/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vanara.Core/3.4.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.Direct3D11/3.3.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.DirectX/3.3.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.Mathematics/1.7.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.DXGI/3.3.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpGen.Runtime/2.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vortice.D3DCompiler/3.3.4.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vanara.PInvoke.Gdi32/3.4.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Vanara.PInvoke.ComDlg32/3.4.17.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SharpGen.Runtime.COM/2.1.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

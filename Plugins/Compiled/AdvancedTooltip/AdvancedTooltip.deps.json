@@ -1,12 +1,12 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v6.0/win-x64",
+    "name": ".NETCoreApp,Version=v8.0/win-x64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v6.0": {},
-    ".NETCoreApp,Version=v6.0/win-x64": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/win-x64": {
       "AdvancedTooltip/1.0.0": {
         "dependencies": {
           "SharpDX.Mathematics": "4.2.0"
