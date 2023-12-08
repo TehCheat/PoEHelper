@@ -6,14 +6,9 @@ It is highly recommended that you use the [limited user method explained here](h
 This reads the memory of the Path of Exile client application and displays it on transparent overlay.
 
 ### Donation Info
-Donations can be made via:
-* [PayPal](https://www.paypal.me/TehCheat)
-* [StreamLabs](https://streamlabs.com/thecheatoc/tip)
-
 Crypto:
-* BTC - 3JA5MFmWVfG3bwzZJ7RsuKVUtvL6t5QBcJ
-* ETH - 0xdF2AEe4522cDBDbc352775D
-* BCH - qpaqdf43t778x4s8nmcd6exjtjxn3tfrmq4uf3nltz
+* BTC: bc1qke67907s6d5k3cm7lx7m020chyjp9e8ysfwtuz
+* ETH: 0x3A37B3f57453555C2ceabb1a2A4f55E0eB969105
 
 ### Keyboard Info
 
@@ -37,7 +32,7 @@ Crypto:
 ### Requirements
 
 * Require Microsoft Visual C++ 2015 Redistributable
-* .NET framework v.6.0
+* .NET 8.0
 * Path of Exile should be running in Windowed or Windowed Fullscreen mode (the pure Fullscreen mode does not let PoeHUD draw anything over the game window)
 * Windows Aero transparency effects must be enabled. (If you get a black screen this is the issue)
 * DirectX 9 redistributable.
